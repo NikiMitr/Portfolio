@@ -79,11 +79,29 @@ h1{
     padding-top: 30px;
     font-size: 40px;
 }
+@media(max-width: 1200px){
+    h1 {
+        font-size: 35px;
+    }
+    .f2{
+        padding-left: 0px;
+        font-size: 25px;
+    }
+    .img{width: 400px;}
+}
 @media(max-width: 920px){
-h1{font-size: 13px;}
-.sat{font-size: 10px;}
+    h1 {
+        font-size: 30px;
+    }
+    .f2{font-size: 20px;}
+}
+@media(max-width: 720px){
+    h1 {
+        font-size: 25px;
+    }
+    .f2{font-size: 18px;}
+    .img{width: 350px;}
 }
 @media(max-width: 540px){
-h1{font-size: 10px;}
-.sat{font-size: 8px;}
+    .img{width: 300px;}
 }
